@@ -3,39 +3,29 @@
 Fictional Typewriter E-commerce Site
 This project is a fictional e-commerce site designed to enhance HTML, CSS, and JS skills. It simulates the sale of typewriters and incorporates various features and functionalities. The project consists of the following sections:
 
-I) **Models**
-File: index.html
-Description: This section displays two typewriter models, Typiller Classic and Typiller Glamour.
 
-II) **Typography**
-File: typography.html
-Script: script-tp.js
-Description: This section demonstrates typographic styles and functionalities.
-While the user is typing, the input is displayed in three different typographies: Default, Poppins, and Italic.
-A random quote, sourced from sayings.json, is displayed in the typographies and can be refreshed.
+All HTML part was developed by my own. JS and CSS were developed under eventual consulting.
+I) "Models" section, represented by **index.html** show us two typewriters models: Typiller Classic and Typiller Glamour;
 
-III) **Trend**
-File: view.html
-Description: This section provides historical information about typewriters.
+II) "Typography" section from "**typography.html"**, which is linked to **"script-tp.js"** has two funcionalities:
+- A JS program that, while the user is typing something, it is displayed in three different typographies that are available in Typiller: Default, Poppins and Italic;
+- A randomic quote displayed in those typographies that can be refreshed. The quotes come from "**sayings.json"**;
 
-IV) **Buy**
-File: buy.html
-Script: script-payment.js
-Description: This section allows users to select and purchase typewriters.
-Slideshow with images of typewriters, changing every 3 seconds.
-Previous and next buttons to navigate through the slideshow.
-Quantity selection for Typiller Classic and Typiller Glamour typewriters.
-Price display and a link to the payment section if at least one typewriter is selected.
+III) "Trend" section represented by **"view.html"** telling some history about typewriters;
 
-V) **Payment**
-File: payment.html
-Script: script-payment.js
-Description: This section handles the payment process.
-Fields to enter customer data.
-When the "Generate Order" button is clicked, a .txt file is generated as a receipt with formatted customer data.
-Validation for required fields; the receipt won't be generated if any fields are empty.
-Validation for phone and document digits; an alert is displayed if they are incorrect.
+IV) "Buy" section, linked to **"script-payment.js"** containing a slideshow that changes the image each 3 seconds, but also can change to previous or next image when this respective buttons are clicked.
+Buy includes a box that you can select how many Classic and Glamour you want. If at least one typewriter is selected, it displays the price and shows a link for the payment section;
+
+V) "Payment" section, as **"payment.html"** and linked to **"script-payment.js"**, containing fields that must be fulled with costumer data. When button "Generate Order" is clicked, 
+it will generate a .txt file just like a receipt, containing cleaning and formated data costumer. Important: it will not generate a receipt if one of the required fileds are empty. If phone digits or document digits are less or more that it should be, an alert will be displayed and it will not generate receipt.
 
 
 SCREENSHOTS
 The img folder contains the images used in the site, as well as screenshots of the site.
+![orderReceipt](https://github.com/leonardopiller/Typiller-Typewriters/assets/121625024/22d9ef84-fd02-46ea-93c2-b12b069343c5)
+This is the generated Receipt .txt file containing data cleaned and formatted.
+![typography-text test](https://github.com/leonardopiller/Typiller-Typewriters/assets/121625024/ab7ac16d-b84d-4cd5-8b98-f3c9967a9365)
+Here, it's the three text the user is typing displayed in three different typographies.
+
+**Screenshots of the site and images used in it are all in <img> folder at this repository.
+**
