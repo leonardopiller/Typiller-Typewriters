@@ -1,0 +1,85 @@
+#models-section{
+  margin-top: 100px;
+  font-family: 'Courier Prime', monospace;
+}
+.classic-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.classic-img img {
+  max-width: 100%;
+  height: auto;
+}
+.classic-img-div {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+.models-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.models-title{
+font-weight: 700;
+font-size: 1.5rem;
+margin-top: 10px
+}
+ 
+#div-glamour{
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+.grid-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.paper-bg{
+  background-color: #f5f5dc;
+  margin: 0 40px;
+}
+
+.models-divisor{
+  display: block;
+  width: 100px;
+  background-color: #EDEDED;
+}
+.models-div li{
+  padding: 5px 0;
+}
+
+.models-div li {
+  padding: 5px 0;
+  list-style-type: none;
+}
+.models-img-div img{
+  max-width: 100%;
+  height: auto;
+}
+.models-divisor {
+  display: block;
+  width: 1300px;
+  height: 20px;
+  content: ' ';
+  background-color: #EDEDED;
+}
+@media screen and (max-width: 600px) {
+  .models-divisor {
+    display: block;
+    width: 400px;
+    height: 20px;
+    content: ' ';
+    background-color: #EDEDED;
+  }
+}

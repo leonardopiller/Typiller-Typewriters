@@ -1,0 +1,40 @@
+#header-title{
+  color:black;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: #964B00;
+  margin-top: 50px;
+}
+#header{
+  font-family: 'Oswald', sans-serif;
+}
+.header-nav{
+  font-family:inherit;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0;
+}
+.header-nav li{
+  background-color: rgb(255, 203, 174);
+  padding: 5px 10px;
+  border-radius: 4px;
+  justify-content: center;
+  font-size: larger;
+} 
+#header{
+  background-color: rbga(237, 237, 237);
+}
+.header-nav li a{
+  color: #964B00;
+
+}
+.header-nav li:hover{
+  background-color: RGB(238, 187, 154) ;
+
+}

@@ -1,0 +1,26 @@
+.history {
+  padding: 10px 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: 1.1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.img {
+  text-align: center;
+  max-width: 100%;
+}
+
+.img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.history p{
+  padding: 5px 0;
+}
+#section-trend{
+  margin-top: 100px;
+
+}

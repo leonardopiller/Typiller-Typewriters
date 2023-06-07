@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Payment</title>
+  <!-- /* Oswald font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <!-- Courier -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <h1 id="header-title">Typiller TypeMachines</h1>
+    <nav>
+      <ul class="header-nav">
+        <li>
+          <a href="./index.html">Models</a>
+        </li>
+        <li>
+          <a href="./typography.html">Typography</a>
+        </li>
+        <li>
+          <a href="./view.html">Trend</a>
+        </li>
+        <li class="buy-now">
+          <a href="./buy.html">Buy now</a>
+        </li>
+      </ul>
+  </header>
+
+
+  <section id="payment-section">
+    <div class="paper-bg data">
+      <ul>
+        <li>
+          <label for="name"> Full Name *</label>
+          <input type="text" id="name" placeholder="E.g. John McPiller" required>
+        </li>
+        <li>
+          <label for="email">Email *</label>
+          <input type="email" id="email" placeholder="email@something.com" required>
+        </li>
+        <li>
+          <label for="document">Document *</label>
+          <input type="text" id="document" placeholder="111.111.111-11" required>
+        </li>
+        <li>
+          <label for="phone">Phone number: *</label>
+          <input type="phone" id="phone" placeholder="(00) 0000.0000" required>
+        </li>
+        <li>
+          <label for="adress">Address *</label>
+          <input type="text" id="address" placeholder="E.g. 233, Main Street" required>
+        </li>
+        <li>
+          <label for="state">Select your state *</label>
+          <select id="state" required>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </select>
+        </li>
+        <li>
+          <label for="date">Birth date *</label>
+          <input type="date" id="date" required>
+        </li>
+        <li>
+          <label for="payment">Payment method *</label>
+          <select name="payment-option" id="payment" required>
+            <option value="pix">Pix</option>
+            <option value="bill">Bill</option>
+            <option value="card">Card</option>
+          </select>
+        </li>
+        <li>
+          <label for="gender">
+            Gender
+          </label>
+          <select name="gender" id="gender">
+            <option value="NS">Prefer not say</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+          </select>
+
+        </li>
+
+
+        <li> Typiller Classic *
+          <select class="quantidade" onchange="calculateTotal(this)" required>
+            <option value="0">Add</option>
+            <option value="1">1 UNIT</option>
+            <option value="2">2 UNITS</option>
+            <option value="3">3 UNITS</option>
+            <option value="4">4 UNITS</option>
+            <option value="5">5 UNITS</option>
+          </select>
+        </li>
+        <li>Typiller Glamour *
+          <select class="quantidade" onchange="calculateTotal(this)" required>
+            <option value="0">Add</option>
+            <option value="1">1 UNIT</option>
+            <option value="2">2 UNITS</option>
+            <option value="3">3 UNITS</option>
+            <option value="4">4 UNITS</option>
+            <option value="5">5 UNITS</option>
+          </select>
+
+        <li>
+          Typography of your(s) order
+          <select class="typography-option">
+            <option value="default">Default</option>
+            <option value="italic">Italic</option>
+            <option value="poppins">Poppins</option>
+          </select>
+
+        </li>
+        </li>
+      </ul>
+      <p class="mandatory">P.S. All the fields marked ' * ' are mandatory</p>
+      <p id="total-value"></p>
+      <button id="generate-order-btn" onclick="downloadOrder()">Generate Order</button>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-bg"">
+      <p> Typiller TypeMachines Inc.
+      </p>
+      <p>Piller Avenue, 6048 - Detroit - Michigan</p>
+      <h4>Contact by: </h4>
+      <ul>
+        <li>Phone: (+11) 11 1111-1111</li>
+        <li>Email: contact@typiller.com</li>
+      </ul>
+    </div>
+
+  </footer>
+  <script src=" script-payment.js">
+  </script>
+
+</body>
+
+</html>

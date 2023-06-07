@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Typography</title>
+  <!-- /* Oswald font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <!-- Courier -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="header">
+    <h1 id="header-title">Typiller TypeWriters</h1>
+    <nav>
+      <ul class="header-nav">
+        <li>
+          <a href="./">Models</a>
+        </li>
+        <li>
+          <a href="">Typography</a>
+        </li>
+        <li>
+          <a href="./view.html">Trend</a>
+        </li>
+        <li class="buy-now">
+          <a href="./buy.html">Buy now</a>
+        </li>
+      </ul>
+  </header>
+
+  <body>
+    <section id="typography-section">
+      <div class="paper-bg">
+        <div class="typography">
+          <h2>Text and test here</h2>
+          <p>Type something to see the diferences between the three typographies</p>
+          <input id="inputLetra" type="text" placeholder="Type something...">
+          <h4>Default style:</h4>
+          <p class="output"></p>
+          <h4 class="italic">Italic:</h4>
+          <p class="output" id="italic"></p>
+          <h4 class="poppins">Poppins:</h4>
+          <p class="output" id="poppins"></p>
+          <!-- <p id="typography-note">* P.S: only in Typiller Glamour it's possible to choose the typography you prefer!</p>
+          <p> * P.S.2: In Typiller Classic, your type machine comes with the 'Default' typography
+          </p> -->
+        </div>
+      </div>
+    </section>
+
+    <article class="quotes-article">
+      <div class="paper-bg">
+        <div class="typography-quotes">
+          <h2>You can also check here the typographies using randomic sentences </h2>
+          <h4>Default style:</h4>
+          <p class="output-quotes" id="output-quotes"></p>
+          <h4 class="italic-quotes">Italic:</h4>
+          <p class="output-quotes" id="italic-quotes"></p>
+          <h4 class="poppins-quotes">Poppins:</h4>
+          <p class="output-quotes" id="poppins-quotes"></p>
+          <button class="btn-quote">Refresh</button>
+        </div>
+
+    </article>
+    <script src="./script-tp.js"></script>
+  </body>
+
+</html>

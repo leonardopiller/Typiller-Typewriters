@@ -1,0 +1,21 @@
+.section-buy-bg{
+  background-color: white;
+  color: #964B00;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+ display: grid;
+ justify-items: center;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+.buy-button{
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.buy-button:hover{
+  background-color: darkred;
+}

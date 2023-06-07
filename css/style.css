@@ -1,0 +1,9 @@
+@import "./header.css";
+@import "./global.css";
+@import "./models.css";
+@import "./typography.css";
+@import './section-buy.css';
+@import './footer.css';
+@import './buy.css';
+@import './payment.css';
+@import './view.css';

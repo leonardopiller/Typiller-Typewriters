@@ -1,0 +1,94 @@
+
+.galeria {
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.none {
+  display: none;
+}
+.galeria li {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+#galeria-section{
+  padding: 0px 15px;
+  padding-bottom: 20px;
+}
+#quantity-buy{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f5f5dc;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 20px;
+  text-align: left;
+
+}
+#quantity-buy li{
+  margin: 20px 0px;
+}
+.slide img,
+.slide-glamour img {
+  max-width: 100%;
+  height: auto;
+}
+.slide {
+    margin-right: 10px;
+}
+
+.slide:not(:last-child) {
+  margin-right: 10px;
+}
+#quantity-buy {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f5f5dc;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
+  margin: 30px auto;
+  padding-bottom: 70px;
+
+}
+.total-value,
+.payment{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 203, 174);
+  margin: 0px auto;
+  padding: 10px 20px;
+}
+.payment{
+  margin-top: 20px;
+  border-radius: 4px;
+
+}
+.price{
+  background-color: rgb(255, 203, 174);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+#gallery-prev,
+#gallery-next,
+#glamour-gallery-prev,
+#glamour-gallery-next{
+  width: 35px !important; 
+  height: 30px !important;
+  font-size: 1.5rem;
+  text-align: center;
+  text-justify: auto;
+}
+.quantidade{
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+#quantity-buy li{
+  padding-bottom: 30px;
+}
