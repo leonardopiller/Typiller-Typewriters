@@ -26,6 +26,7 @@ The img folder contains the images used in the site, as well as screenshots of t
 This is the generated Receipt .txt file containing data cleaned and formatted.
 ![typography-text test](https://github.com/leonardopiller/Typiller-Typewriters/assets/121625024/ab7ac16d-b84d-4cd5-8b98-f3c9967a9365)
 Here, it's the three text the user is typing displayed in three different typographies.
-
+![image](https://github.com/leonardopiller/Typiller-Typewriters/assets/121625024/35110cfa-93e2-4622-8279-6cbde583b910)
+Payment section: data fields and the TypillerTypewrites header above
 **Screenshots of the site and images used in it are all in <img> folder at this repository.
 **
